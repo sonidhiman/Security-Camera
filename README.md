@@ -1,0 +1,2 @@
+# security-camera
+this project is based on python. we are using laptop webcam to act as security camera.first of all we used cv2 library for vedio capture.For making this first we obseerve that we have to capture the small movement . So we have taken the diffence between that steady things and moving object , as soon as we caught any movement form steady position , we have set an beep sound so that we can recognize any unusual activity.For playing sound we  have used the Playsound function .
